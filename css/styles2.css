@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", sans-serif;
+}
+
+body{
+    background:linear-gradient(120deg,#0f172a,#020617);
+    color:white;
+    min-height:100vh;
+}
+
+.encabezado{
+    text-align:center;
+    padding:50px 20px;
+    border-bottom:1px solid #00ffff33;
+    background:rgba(10,10,20,0.8);
+    backdrop-filter:blur(10px);
+}
+
+.encabezado h1{
+    font-size:50px;
+    color:#00ffff;
+    text-shadow:0 0 12px #00ffff88;
+    margin-bottom:10px;
+}
+
+.encabezado p{
+    color:#cbd5e1;
+    font-size:18px;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.bloque{
+    margin-bottom:35px;
+    padding:25px;
+    background:rgba(15,23,42,0.75);
+    border:1px solid #00ffff22;
+    border-radius:18px;
+    box-shadow:0 0 20px #00ffff11;
+}
+
+.bloque h2{
+    color:#00ffff;
+    margin-bottom:20px;
+    font-size:30px;
+    text-shadow:0 0 8px #00ffff44;
+}
+
+.tarjeta{
+    background:linear-gradient(180deg,#0f172a,#111827);
+    border:1px solid #00ffff22;
+    border-radius:14px;
+    padding: 23px;
+    margin-bottom:18px;
+    box-shadow:0 0 12px #00ffff11;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-4px);
+    border-color:#00ffff77;
+    box-shadow:0 0 18px #00ffff44;
+}
+
+.tarjeta h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.tarjeta p{
+    color:#cbd5e1;
+    line-height:1.6;
+    font-size:16px;
+}
+
+.boton-regreso{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+.boton-regreso a{
+    display:inline-block;
+    text-decoration:none;
+    color:#00ffff;
+    border:1px solid #00ffff66;
+    padding:12px 24px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.boton-regreso a:hover{
+    background:#00ffff;
+    color:black;
+    box-shadow:0 0 15px #00ffff;
+}
